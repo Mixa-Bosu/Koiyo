@@ -1,6 +1,6 @@
 # Koiyo
-A 2D JRPG written in GML (C++) and compiled in Yacc (Yet another compiler-compiler)
-
+_A 2D JRPG written in GML (C++) and compiled in Yacc (Yet another compiler-compiler)
+_
 **Modules**
 
 _Inventory System_ | **CONCEPT**
