@@ -1,6 +1,6 @@
 # Koiyo
-_A 2D JRPG written in GML (C++) and compiled in Yacc (Yet another compiler-compiler)
-_
+A 2D JRPG written in GML (C++) and compiled in Yacc (Yet another compiler-compiler)
+
 **Modules**
 
 _Inventory System_ | **CONCEPT**
@@ -24,12 +24,12 @@ The latest release features the beginning of this module, as I use an intro syst
 - Camera movement (panning, zooming, etc)
 - Static FX, such as blur, fog, etc using Gamemaker's in-built-room effects
 - Movie-like black bars that slide in, giving the player a heads-up that this is a cutscene before it begins
-- A dialogue system different to that from the regular dialogue system and exclusive to the cutscene system, using the same font yet in a different style giving variation to the game
+- A textbox system different from the regular dialogue system and exclusive to the cutscene system, using the same font yet in a different style giving variation to the game
 
 _Dialogue/Textbox System_ | **COMPLETE**
 
-A dialogue/textbox system that displays the sprite head, uses punctuation in tandem with pauses and delivery, and has some cool effects to play around with, it currently features:
-- Sprite display (a box on left OR right depending on what you set it to that displays the sprite's portrait, this can be used to differenciate between the player/friendly and other NPCs)
+A dialogue/textbox system that displays the sprite head, uses punctuation in tandem with pauses and delivery and has some cool effects to play around with, it currently features:
+- Sprite display (a box on the left OR right depending on what you set it to that displays the sprite's portrait, this can be used to differentiate between the player/friendly and other NPCs)
 - Interesting FX (wavy effects, jiggly, and coloured text)
 - A writing system that follows the rules of punctuation in tandem with pauses and writes the text out like a typewriter effect
 
@@ -39,7 +39,7 @@ A room transition system that plays an animation when you leave or enter into a 
 
 _Music System_ | **COMPLETE**
 
-A basic music player that will play tracks and can fade in and out depending on what room you are in, it currently works with some janky mechanics but should be changed/optimized in  the future.
+A basic music player that will play tracks and fade in and out depending on your room, it currently works with some janky mechanics but should be changed/optimized in  the future.
 
 _Parallax Backgrounds & Menus_ | **COMPLETE**
 
