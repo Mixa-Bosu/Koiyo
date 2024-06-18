@@ -41,9 +41,9 @@ if pos < 0 {pos = op_length -1};
 					//video
 					case 0: menu_level = 3; break;
 					//audio
-					case 1: break;
+					case 1: menu_level = 5; break;
 					//controls
-					case 2: break;
+					case 2: menu_level = 6; break;
 					//back
 					case 3: menu_level = 0; break;
 				}
@@ -65,12 +65,19 @@ if pos < 0 {pos = op_length -1};
 					//(Default) 4:3 (864 x 648)
 					case 0:  break;
 					//4:3 (1728 x 1296)
-					case 1: 
+					case 1:  // DUHHH no wonder it wasn't working, you don't have them set as global variables so you're literally editing NOTHING
 					camera_destroy(view_camera[0]);
 					view_camera[0] = camera_create_view(0, 0, 1728, 1296, 0, obj_player, 144, 108, -1, -1);
 						break;
 					//
-					case 2: break;
+					case 2:
+						if window_get_fullscreen == true then
+							{
+								
+								//global.ScrW = 
+								//global.ScrH
+							}
+					break;
 					//
 					case 3: break;
 					//back

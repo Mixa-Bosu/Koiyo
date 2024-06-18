@@ -25,6 +25,8 @@ option[4, 1] = "4:3 (1728 x 1296)"
 option[4, 2] = "16:9 (1920 x 1080)"
 option[4, 3] = "A button that kills someone somewhere"
 option[4, 4] = "Back"
-
+// for menu level 5 it is audio so do like volume sliders here or something
+// REMEMBER: TO MAKE SCRW AND SCRH GLOBAL SO THAT YOU CAN EDIT THE VALUES HERE
+// 6 is controls so maybe a menu where on the left side there are all the controls and on the right you can change the default
 op_length = 0;
 menu_level = 0;
